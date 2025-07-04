@@ -107,7 +107,7 @@ venv.bak/
 # PyCharm
 .idea/
 
-# mypy
+# Mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
@@ -121,5 +121,20 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# Your project source code folder
-# (don’t ignore src/, you want to track it!)
+# Ignore virtual environment folders
+Lib/
+site-packages/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore caches
+__pycache__/
+
+Scripts/
+include/
+pyvenv.cfg
+
+# Don’t ignore your source code folder (e.g., src/)
