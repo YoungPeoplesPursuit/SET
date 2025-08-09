@@ -29,6 +29,6 @@ In other words, you don't want any attributes to be 2 of a kind in the cards you
 ## Installation
 ```bash
 git clone https://github.com/youngpeoplespursuit/SET.git
-cd yourproject
+cd SET
 pip install -r requirements.txt
 python main.py
